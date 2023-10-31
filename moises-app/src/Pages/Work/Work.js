@@ -1,14 +1,16 @@
-import SelectNutrition from './assets/images/SelectNutrition.png'
-import WeatherDasboard from './assets/images/WeatherDasboard.png'
-import WkDaySch from './assets/images/WkDaySch.png'
-import Homepage from './assets/images/Homepage.png'
-import CodeQuiz from './assets/images/CodeQuiz.png'
-import CardGroup from "react-bootstrap/CardGroup"
-import Card from "react-bootstrap/Card"
-import Button from "react-bootstrap/Button"
+import React from 'react';
+import SelectNutrition from './images/SelectNutrition.png';
+import WeatherDasboard from './images/WeatherDasboard.png';
+import WkDaySch from './images/WkDaySch.png';
+import Homepage from './images/Homepage.png';
+import CodeQuiz from './images/CodeQuiz.png';
+import CardGroup from "react-bootstrap/CardGroup";
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 
-import './Work.css'
-const Work = () => {
+import './Work.css';
+
+export default function Work() {
   return (
     <div class="Work">
       <header>My Work</header>
@@ -87,4 +89,3 @@ const Work = () => {
   )
 }
 
-export default Work
